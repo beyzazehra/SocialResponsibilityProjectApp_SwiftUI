@@ -1,10 +1,3 @@
-//
-//  AdvertModel.swift
-//  GidaIyilikHareketi
-//
-//  Created by Beyza Olgunsoy on 17.05.2024.
-//
-
 import Foundation
 
 struct AdvertModel: Codable,Hashable {

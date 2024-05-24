@@ -2,20 +2,23 @@ import SwiftUI
 
 struct InputFieldView: View {
     @Binding var data: String
+    
     var title: String?
     
     var body: some View {
         ZStack {
             TextField("", text: $data)
+                .textInputAutocapitalization(.never)
                 .padding(.horizontal, 10)
                 .frame(width: 300, height: 42)
                 .overlay(
                     RoundedRectangle(cornerSize: CGSize(width: 4, height: 4))
                         .stroke(Color.gray, lineWidth: 1)
                 )
+            
             HStack {
                 Text(title ?? "Input")
-                    .font(.headline)
+                    .textInputAutocapitalization(.never)
                     .fontWeight(.thin)
                     .foregroundColor(.black)
                     .multilineTextAlignment(.leading)

@@ -12,7 +12,7 @@ struct StatusView: View {
         
             Image("crown")
                 .position(x: 190, y: 25)
-            Image("profil")
+            Image("profile")
                 .resizable()
                 .frame(width: 100, height: 100)
                 .clipShape(Circle())
@@ -21,7 +21,7 @@ struct StatusView: View {
                 .resizable()
                 .frame(width: 100, height: 140)
                 .position(x: 80, y: 300)
-            Image("profil")
+            Image("profile")
                 .resizable()
                 .frame(width: 100, height: 100)
                 .clipShape(Circle())
@@ -30,7 +30,7 @@ struct StatusView: View {
                 .resizable()
                 .frame(width: 110, height: 220)
                 .position(x: 190, y: 260)
-            Image("profil")
+            Image("profile")
                 .resizable()
                 .frame(width: 100, height: 100)
                 .clipShape(Circle())
@@ -46,47 +46,15 @@ struct StatusView: View {
                 .position(x: 195, y: 530)
             
             ScrollView(.vertical, showsIndicators: false) {
-                VStack(alignment: .trailing) {
-                    HStack {
-                        Image("profil")
-                            .resizable()
-                            .frame(width: 80, height: 80)
-                            .clipShape(Circle())
-                        Text("Burger King")
-                    }
-                    Divider()
-                    HStack {
-                        Image("profil")
-                            .resizable()
-                            .frame(width: 80, height: 80)
-                            .clipShape(Circle())
-                        Text("Burger King")
-                    }
-                    Divider()
-                    HStack {
-                        Image("profil")
-                            .resizable()
-                            .frame(width: 80, height: 80)
-                            .clipShape(Circle())
-                        Text("Burger King")
-                    }
-                    Divider()
-                    HStack {
-                        Image("profil")
-                            .resizable()
-                            .frame(width: 80, height: 80)
-                            .clipShape(Circle())
-                        Text("Burger King")
-                    }
-                    Divider()
-                    HStack {
-                        Image("profil")
-                            .resizable()
-                            .frame(width: 80, height: 80)
-                            .clipShape(Circle())
-                        Text("Burger King")
-                    }
+                VStack(alignment: .leading) {
+                    
+                    StatusListCellView(profileImage: "profile", restaurantName: "Kayseri Muffağı")
+                    StatusListCellView(profileImage: "profile", restaurantName: "Sinop Mantı")
+                    StatusListCellView(profileImage: "profile", restaurantName: "Happy Moon's")
+                    StatusListCellView(profileImage: "profile", restaurantName: "Salt Fried Chicken")
+                    
                 }
+              
             }
             .frame(width: 330, height: 250)
             .position(x: 195, y: 530)

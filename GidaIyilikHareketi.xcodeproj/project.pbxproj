@@ -8,8 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F837A9022BADB141003C3D22 /* BlogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837A9012BADB141003C3D22 /* BlogView.swift */; };
+		F850E41A2BFFDFF6008B3588 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F850E4192BFFDFF5008B3588 /* SignUpViewModel.swift */; };
+		F850E41C2BFFE3BF008B3588 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F850E41B2BFFE3BF008B3588 /* SignUpModel.swift */; };
 		F852B1762BF7EE6F00A31D33 /* EduVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852B1752BF7EE6F00A31D33 /* EduVideoView.swift */; };
 		F852B1782BF8C04B00A31D33 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852B1772BF8C04B00A31D33 /* StarView.swift */; };
+		F852B17A2BF8D59500A31D33 /* StatusListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852B1792BF8D59500A31D33 /* StatusListCellView.swift */; };
+		F852B17C2BF8DB1400A31D33 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852B17B2BF8DB1400A31D33 /* PersonModel.swift */; };
+		F852B17E2BF8DB4600A31D33 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852B17D2BF8DB4600A31D33 /* PersonViewModel.swift */; };
+		F852B1842BFA7AA300A31D33 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F852B1832BFA7AA300A31D33 /* KeychainSwift */; };
 		F861E7722B9497F700E804DA /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = F861E7712B9497F700E804DA /* Text.swift */; };
 		F86BFB372BE8F9B800C754C2 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BFB362BE8F9B800C754C2 /* SignUpView.swift */; };
 		F86BFB392BF0D4ED00C754C2 /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BFB382BF0D4ED00C754C2 /* QRView.swift */; };
@@ -23,6 +29,8 @@
 		F87C9E652BF7A6F000C55372 /* MapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C9E642BF7A6F000C55372 /* MapButton.swift */; };
 		F87C9E672BF7AE9200C55372 /* AdvertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C9E662BF7AE9200C55372 /* AdvertModel.swift */; };
 		F87C9E6A2BF7CCE500C55372 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87C9E692BF7CCE500C55372 /* Launch Screen.storyboard */; };
+		F87FE0D82BFD15640003D704 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FE0D72BFD15640003D704 /* LoginViewModel.swift */; };
+		F87FE0DA2BFD2F250003D704 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FE0D92BFD2F250003D704 /* LoginModel.swift */; };
 		F88216E72B6FC38B0086EDC9 /* GidaIyilikHareketiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88216E62B6FC38B0086EDC9 /* GidaIyilikHareketiApp.swift */; };
 		F88216EB2B6FC38E0086EDC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88216EA2B6FC38E0086EDC9 /* Assets.xcassets */; };
 		F88216EE2B6FC38E0086EDC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88216ED2B6FC38E0086EDC9 /* Preview Assets.xcassets */; };
@@ -57,8 +65,14 @@
 
 /* Begin PBXFileReference section */
 		F837A9012BADB141003C3D22 /* BlogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogView.swift; sourceTree = "<group>"; };
+		F850E4192BFFDFF5008B3588 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		F850E41B2BFFE3BF008B3588 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
 		F852B1752BF7EE6F00A31D33 /* EduVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduVideoView.swift; sourceTree = "<group>"; };
 		F852B1772BF8C04B00A31D33 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		F852B1792BF8D59500A31D33 /* StatusListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusListCellView.swift; sourceTree = "<group>"; };
+		F852B17B2BF8DB1400A31D33 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		F852B17D2BF8DB4600A31D33 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		F852B1802BFA77D700A31D33 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F861E7712B9497F700E804DA /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		F86BFB362BE8F9B800C754C2 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		F86BFB382BF0D4ED00C754C2 /* QRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRView.swift; sourceTree = "<group>"; };
@@ -73,6 +87,8 @@
 		F87C9E662BF7AE9200C55372 /* AdvertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertModel.swift; sourceTree = "<group>"; };
 		F87C9E682BF7B53F00C55372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F87C9E692BF7CCE500C55372 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F87FE0D72BFD15640003D704 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F87FE0D92BFD2F250003D704 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		F88216E32B6FC38B0086EDC9 /* GidaIyilikHareketi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GidaIyilikHareketi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88216E62B6FC38B0086EDC9 /* GidaIyilikHareketiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GidaIyilikHareketiApp.swift; sourceTree = "<group>"; };
 		F88216EA2B6FC38E0086EDC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F852B1842BFA7AA300A31D33 /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,8 +136,10 @@
 		F80BCDDA2B8F61E1003B62E0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F8B80D822BA4C60000DF7DAD /* InputFieldView.swift */,
 				F87C9E662BF7AE9200C55372 /* AdvertModel.swift */,
+				F852B17B2BF8DB1400A31D33 /* PersonModel.swift */,
+				F87FE0D92BFD2F250003D704 /* LoginModel.swift */,
+				F850E41B2BFFE3BF008B3588 /* SignUpModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -129,6 +148,9 @@
 			isa = PBXGroup;
 			children = (
 				F878351F2BA8B4FE006CD5A2 /* RestaurantViewModel.swift */,
+				F852B17D2BF8DB4600A31D33 /* PersonViewModel.swift */,
+				F87FE0D72BFD15640003D704 /* LoginViewModel.swift */,
+				F850E4192BFFDFF5008B3588 /* SignUpViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -159,6 +181,14 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		F852B17F2BFA77D700A31D33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F852B1802BFA77D700A31D33 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F87835222BA8B6DE006CD5A2 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +205,7 @@
 				F88216F62B6FC38F0086EDC9 /* GidaIyilikHareketiTests */,
 				F88217002B6FC38F0086EDC9 /* GidaIyilikHareketiUITests */,
 				F88216E42B6FC38B0086EDC9 /* Products */,
+				F852B17F2BFA77D700A31D33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,6 +263,7 @@
 		F88F88D02B8FC5BF00D3A8AD /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F8B80D822BA4C60000DF7DAD /* InputFieldView.swift */,
 				F88F88D32B8FC68400D3A8AD /* Color.swift */,
 				F861E7712B9497F700E804DA /* Text.swift */,
 				F87835272BA8CDAE006CD5A2 /* myButton.swift */,
@@ -239,6 +271,7 @@
 				F87C9E642BF7A6F000C55372 /* MapButton.swift */,
 				F852B1752BF7EE6F00A31D33 /* EduVideoView.swift */,
 				F852B1772BF8C04B00A31D33 /* StarView.swift */,
+				F852B1792BF8D59500A31D33 /* StatusListCellView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -267,6 +300,9 @@
 			dependencies = (
 			);
 			name = GidaIyilikHareketi;
+			packageProductDependencies = (
+				F852B1832BFA7AA300A31D33 /* KeychainSwift */,
+			);
 			productName = GidaIyilikHareketi;
 			productReference = F88216E32B6FC38B0086EDC9 /* GidaIyilikHareketi.app */;
 			productType = "com.apple.product-type.application";
@@ -339,6 +375,9 @@
 				Base,
 			);
 			mainGroup = F88216DA2B6FC38B0086EDC9;
+			packageReferences = (
+				F852B1822BFA7AA300A31D33 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
 			productRefGroup = F88216E42B6FC38B0086EDC9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -383,6 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F878351E2BA827D7006CD5A2 /* SifreYenilemeView.swift in Sources */,
+				F87FE0DA2BFD2F250003D704 /* LoginModel.swift in Sources */,
 				F86BFB372BE8F9B800C754C2 /* SignUpView.swift in Sources */,
 				F87835202BA8B4FE006CD5A2 /* RestaurantViewModel.swift in Sources */,
 				F8B80D7D2BA4B65800DF7DAD /* Webservices.swift in Sources */,
@@ -390,20 +430,26 @@
 				F87835262BA8B7A6006CD5A2 /* RestaurantView.swift in Sources */,
 				F887122E2BB759D8002173C6 /* NavBarView.swift in Sources */,
 				F8FB8F5F2BA1DB14007227BE /* FirstView.swift in Sources */,
+				F87FE0D82BFD15640003D704 /* LoginViewModel.swift in Sources */,
 				F852B1782BF8C04B00A31D33 /* StarView.swift in Sources */,
 				F837A9022BADB141003C3D22 /* BlogView.swift in Sources */,
 				F8B80D812BA4BB3B00DF7DAD /* LoginView.swift in Sources */,
 				F88216E72B6FC38B0086EDC9 /* GidaIyilikHareketiApp.swift in Sources */,
+				F852B17C2BF8DB1400A31D33 /* PersonModel.swift in Sources */,
 				F86BFB3B2BF0D66100C754C2 /* StatusView.swift in Sources */,
+				F850E41A2BFFDFF6008B3588 /* SignUpViewModel.swift in Sources */,
 				F8C36A882BA9EAEE00DC8733 /* ProfileView.swift in Sources */,
 				F861E7722B9497F700E804DA /* Text.swift in Sources */,
 				F87835282BA8CDAE006CD5A2 /* myButton.swift in Sources */,
+				F852B17E2BF8DB4600A31D33 /* PersonViewModel.swift in Sources */,
 				F852B1762BF7EE6F00A31D33 /* EduVideoView.swift in Sources */,
 				F86BFB392BF0D4ED00C754C2 /* QRView.swift in Sources */,
 				F87C9E672BF7AE9200C55372 /* AdvertModel.swift in Sources */,
 				F87835242BA8B6F5006CD5A2 /* SearchBarView.swift in Sources */,
 				F88F88D42B8FC68400D3A8AD /* Color.swift in Sources */,
 				F878352A2BA8D42D006CD5A2 /* RestaurantBox.swift in Sources */,
+				F850E41C2BFFE3BF008B3588 /* SignUpModel.swift in Sources */,
+				F852B17A2BF8D59500A31D33 /* StatusListCellView.swift in Sources */,
 				F8B80D832BA4C60000DF7DAD /* InputFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -728,6 +774,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F852B1822BFA7AA300A31D33 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F852B1832BFA7AA300A31D33 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F852B1822BFA7AA300A31D33 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F88216DB2B6FC38B0086EDC9 /* Project object */;
 }

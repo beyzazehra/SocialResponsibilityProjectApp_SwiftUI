@@ -3,9 +3,6 @@ import SwiftUI
 struct myButton: View {
     
     var buttonText: String
-
-
-    
     
     var body: some View {
             Text(buttonText)

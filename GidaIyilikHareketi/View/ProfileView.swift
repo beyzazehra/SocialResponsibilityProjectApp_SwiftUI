@@ -2,26 +2,40 @@ import SwiftUI
 
 struct ProfileView: View {
     
-    var userName: String = "Beyza Olgunsoy"
-    var foodKg: Int
-    var paket: Int
+    @State var name:String = "beyza"
+    @State var surname:String = "olgunsoy"
+    @State var userName: String = "beyzazehra"
+    @State var foodKg: Int
+    @State var paket: Int
+    
     @State private var selectedTab: Tab = .person
+    @StateObject var personVM: PersonViewModel = PersonViewModel()
     
     var body: some View {
         ZStack {
             Color.theme.background
                 .ignoresSafeArea()
             VStack {
-                Image("profil")
+                Image("profile")
                     .resizable()
                     .frame(width: 180, height: 180)
                     .clipShape(Circle())
 
                 
-                Text(userName)
+                HStack {
+                    Text(personVM.persons?.personName ?? "yusuf")
+                        .font(.title)
+                        .font(.custom("OpenSans-Bold", size: 20))
+                    
+                    Text(personVM.persons?.personSurname ?? "yusuf")
+                        .font(.title)
+                        .font(.custom("OpenSans-Bold", size: 20))
+                }
+                
+                
+                Text(personVM.persons?.personNickName ?? "yusuf")
                     .font(.title)
                     .font(.custom("OpenSans-Bold", size: 20))
-                Spacer()
                 
                 HStack {
                     ZStack {
@@ -76,8 +90,17 @@ struct ProfileView: View {
             
         }
         
-        ;NavBarView()
+        .task{
+            do {
+                try await personVM.fetchPersonsFromAPI()
+            } catch {
+                
+            }
+            
+            
+        }
     }
+        
     
 }
 

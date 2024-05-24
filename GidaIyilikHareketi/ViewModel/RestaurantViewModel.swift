@@ -3,6 +3,7 @@ import SwiftUI
 import Combine
 
 class RestaurantViewModel: ObservableObject {
+    
     @Published var searchText: String = ""
     @Published var adverts : [AdvertModel] = []
     
