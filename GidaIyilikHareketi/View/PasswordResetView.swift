@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct SifreYenilemeView: View {
+struct PasswordResetView: View {
     
     @State private var username: String = ""
     
@@ -52,5 +52,5 @@ struct SifreYenilemeView: View {
     }
 }
 #Preview {
-    SifreYenilemeView()
+    PasswordResetView()
 }

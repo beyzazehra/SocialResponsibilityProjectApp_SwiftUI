@@ -10,7 +10,7 @@ enum Tab: String, CaseIterable {
 
 struct NavBarView: View {
     
-    @State private var selectedTab: Tab = .star
+    @State private var selectedTab: Tab = .forkKnife
     
     var body: some View {
         TabView(selection: $selectedTab) {

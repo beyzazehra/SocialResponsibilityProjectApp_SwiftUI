@@ -75,14 +75,14 @@ struct ProfileView: View {
                     RoundedRectangle(cornerRadius: 25)
                         .foregroundColor(.white)
                         .frame(width: 345, height: 140)
-                    Text("Gıda İyilik Adımın")
+                    Text("Gıda İyilik Adımın:")
                         .font(.title2)
                 }
                 ZStack {
                     RoundedRectangle(cornerRadius: 25)
                         .foregroundColor(.white)
                         .frame(width: 345, height: 140)
-                    Text("Doyurduğun Canlı Sayısı")
+                    Text("Doyurduğun Canlı Sayısı:")
                         .font(.title2)
                 }
             }

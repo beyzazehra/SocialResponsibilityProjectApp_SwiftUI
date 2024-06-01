@@ -15,12 +15,14 @@ enum Choice: String,CaseIterable, Identifiable {
 class SignUpViewModel: ObservableObject {
     
      @Published var isRegistered: Bool = false
-     var mail: String = ""
+     @Published var showErrorAlert: Bool = false
+     var email: String = ""
      var password: String = ""
-     var name: String = ""
-     var username: String = ""
-     var location: String = ""
-     var accountType: Choice = .Bireysel
+     var fullName: String = ""
+     var nickname: String = ""
+     var address: String = ""
+     var phoneNumber: String = ""
+     @Published var accountType: Choice = .Bireysel
     
 
    
@@ -29,7 +31,7 @@ class SignUpViewModel: ObservableObject {
         let keychain = KeychainSwift()
         
         
-        Webservices().register(username: username, password: password) { result in
+        Webservices().register(fullName: fullName, nickname: nickname, email: email, password: password, address: address,accountType: accountType,phoneNumber: phoneNumber ) { result in
             switch result {
             case .success(let token):
                 keychain.set(token, forKey: "jsonwebtoken")

@@ -20,7 +20,7 @@
 		F86BFB372BE8F9B800C754C2 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BFB362BE8F9B800C754C2 /* SignUpView.swift */; };
 		F86BFB392BF0D4ED00C754C2 /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BFB382BF0D4ED00C754C2 /* QRView.swift */; };
 		F86BFB3B2BF0D66100C754C2 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BFB3A2BF0D66100C754C2 /* StatusView.swift */; };
-		F878351E2BA827D7006CD5A2 /* SifreYenilemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F878351D2BA827D7006CD5A2 /* SifreYenilemeView.swift */; };
+		F878351E2BA827D7006CD5A2 /* PasswordResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F878351D2BA827D7006CD5A2 /* PasswordResetView.swift */; };
 		F87835202BA8B4FE006CD5A2 /* RestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F878351F2BA8B4FE006CD5A2 /* RestaurantViewModel.swift */; };
 		F87835242BA8B6F5006CD5A2 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87835232BA8B6F5006CD5A2 /* SearchBarView.swift */; };
 		F87835262BA8B7A6006CD5A2 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87835252BA8B7A6006CD5A2 /* RestaurantView.swift */; };
@@ -77,7 +77,7 @@
 		F86BFB362BE8F9B800C754C2 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		F86BFB382BF0D4ED00C754C2 /* QRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRView.swift; sourceTree = "<group>"; };
 		F86BFB3A2BF0D66100C754C2 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
-		F878351D2BA827D7006CD5A2 /* SifreYenilemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SifreYenilemeView.swift; sourceTree = "<group>"; };
+		F878351D2BA827D7006CD5A2 /* PasswordResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetView.swift; sourceTree = "<group>"; };
 		F878351F2BA8B4FE006CD5A2 /* RestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewModel.swift; sourceTree = "<group>"; };
 		F87835232BA8B6F5006CD5A2 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		F87835252BA8B7A6006CD5A2 /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
@@ -162,7 +162,7 @@
 				F8FB8F5E2BA1DB14007227BE /* FirstView.swift */,
 				F8B80D802BA4BB3B00DF7DAD /* LoginView.swift */,
 				F86BFB362BE8F9B800C754C2 /* SignUpView.swift */,
-				F878351D2BA827D7006CD5A2 /* SifreYenilemeView.swift */,
+				F878351D2BA827D7006CD5A2 /* PasswordResetView.swift */,
 				F87835252BA8B7A6006CD5A2 /* RestaurantView.swift */,
 				F8C36A872BA9EAEE00DC8733 /* ProfileView.swift */,
 				F837A9012BADB141003C3D22 /* BlogView.swift */,
@@ -421,7 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F878351E2BA827D7006CD5A2 /* SifreYenilemeView.swift in Sources */,
+				F878351E2BA827D7006CD5A2 /* PasswordResetView.swift in Sources */,
 				F87FE0DA2BFD2F250003D704 /* LoginModel.swift in Sources */,
 				F86BFB372BE8F9B800C754C2 /* SignUpView.swift in Sources */,
 				F87835202BA8B4FE006CD5A2 /* RestaurantViewModel.swift in Sources */,

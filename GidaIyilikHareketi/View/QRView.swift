@@ -2,8 +2,11 @@ import SwiftUI
 
 struct QRView: View {
     var body: some View {
-        Text("QR Kodun")
-            .font(.largeTitle)
+        VStack {
+            Text("QR Kodun")
+                .font(.largeTitle)
+            Image("qr")
+        }
     }
 }
 

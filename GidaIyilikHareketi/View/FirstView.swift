@@ -3,7 +3,6 @@ import SwiftUI
 struct FirstView: View {
     var body: some View {
        
-            
             ZStack {
                 Color.theme.background
                     .ignoresSafeArea()
@@ -22,10 +21,10 @@ struct FirstView: View {
                     
                     Spacer().frame(height: 20)
                     
-                    NavigationLink(destination: LoginView()) {
+                    NavigationLink(destination: LoginView().navigationBarBackButtonHidden(true)) {
                         customButton(label: "Atık gıdam var", description: "Gıdaları ilgili istasyon noktalarına bırakabilirsiniz", imageName: "a")
                     }
-                    NavigationLink(destination: LoginView()) {
+                    NavigationLink(destination: LoginView().navigationBarBackButtonHidden(true)) {
                         customButton(label: "Atık gıda götüreceğim", description: "İlgili istasyonlardan alacağınız gıdaları patili dostlarımıza ulaştırabilirsiniz", imageName: "b")
                     }
                     

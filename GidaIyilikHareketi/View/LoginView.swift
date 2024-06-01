@@ -9,7 +9,7 @@ struct LoginView: View {
             Color.theme.background
                 .ignoresSafeArea()
             
-            NavigationLink(destination: RestaurantView(),isActive: $vm.isAuthenticated) {
+            NavigationLink(destination: NavBarView().navigationBarBackButtonHidden(true),isActive: $vm.isAuthenticated) {
                 EmptyView()
             }
 
@@ -64,13 +64,13 @@ struct LoginView: View {
                             .cornerRadius(40)
                     }
     
-                NavigationLink(destination: SifreYenilemeView()) {
+                NavigationLink(destination: PasswordResetView()) {
                     Text("Şifreni mi unuttun ?")
                         .fontWeight(.bold)
                         .foregroundColor(Color.theme.accent)
                         .underline()
                 }
-                NavigationLink(destination: SignUpView()) {
+                NavigationLink(destination: SignUpView().navigationBarBackButtonHidden(true)) {
                     Text("Hesabın yok mu ? Kayıt ol")
                         .fontWeight(.bold)
                         .foregroundColor(Color.theme.accent)
