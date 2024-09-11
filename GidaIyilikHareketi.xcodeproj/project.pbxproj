@@ -42,6 +42,10 @@
 		F8B80D7D2BA4B65800DF7DAD /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B80D7C2BA4B65800DF7DAD /* Webservices.swift */; };
 		F8B80D812BA4BB3B00DF7DAD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B80D802BA4BB3B00DF7DAD /* LoginView.swift */; };
 		F8B80D832BA4C60000DF7DAD /* InputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B80D822BA4C60000DF7DAD /* InputFieldView.swift */; };
+		F8B8D2B82C14F5B40097648A /* CreateAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B8D2B72C14F5B40097648A /* CreateAddView.swift */; };
+		F8B8D2BA2C14F8530097648A /* CreateAddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B8D2B92C14F8530097648A /* CreateAddViewModel.swift */; };
+		F8B8D2BC2C14F87F0097648A /* CreateAddModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B8D2BB2C14F87F0097648A /* CreateAddModel.swift */; };
+		F8B8D2BE2C15C86F0097648A /* CreateAddService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B8D2BD2C15C86F0097648A /* CreateAddService.swift */; };
 		F8C36A882BA9EAEE00DC8733 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C36A872BA9EAEE00DC8733 /* ProfileView.swift */; };
 		F8FB8F5F2BA1DB14007227BE /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FB8F5E2BA1DB14007227BE /* FirstView.swift */; };
 /* End PBXBuildFile section */
@@ -103,6 +107,10 @@
 		F8B80D7C2BA4B65800DF7DAD /* Webservices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
 		F8B80D802BA4BB3B00DF7DAD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F8B80D822BA4C60000DF7DAD /* InputFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldView.swift; sourceTree = "<group>"; };
+		F8B8D2B72C14F5B40097648A /* CreateAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAddView.swift; sourceTree = "<group>"; };
+		F8B8D2B92C14F8530097648A /* CreateAddViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAddViewModel.swift; sourceTree = "<group>"; };
+		F8B8D2BB2C14F87F0097648A /* CreateAddModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAddModel.swift; sourceTree = "<group>"; };
+		F8B8D2BD2C15C86F0097648A /* CreateAddService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAddService.swift; sourceTree = "<group>"; };
 		F8C36A872BA9EAEE00DC8733 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F8FB8F5E2BA1DB14007227BE /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +148,7 @@
 				F852B17B2BF8DB1400A31D33 /* PersonModel.swift */,
 				F87FE0D92BFD2F250003D704 /* LoginModel.swift */,
 				F850E41B2BFFE3BF008B3588 /* SignUpModel.swift */,
+				F8B8D2BB2C14F87F0097648A /* CreateAddModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,6 +160,7 @@
 				F852B17D2BF8DB4600A31D33 /* PersonViewModel.swift */,
 				F87FE0D72BFD15640003D704 /* LoginViewModel.swift */,
 				F850E4192BFFDFF5008B3588 /* SignUpViewModel.swift */,
+				F8B8D2B92C14F8530097648A /* CreateAddViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -168,6 +178,7 @@
 				F837A9012BADB141003C3D22 /* BlogView.swift */,
 				F86BFB382BF0D4ED00C754C2 /* QRView.swift */,
 				F86BFB3A2BF0D66100C754C2 /* StatusView.swift */,
+				F8B8D2B72C14F5B40097648A /* CreateAddView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -280,6 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				F8B80D7C2BA4B65800DF7DAD /* Webservices.swift */,
+				F8B8D2BD2C15C86F0097648A /* CreateAddService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -436,18 +448,22 @@
 				F8B80D812BA4BB3B00DF7DAD /* LoginView.swift in Sources */,
 				F88216E72B6FC38B0086EDC9 /* GidaIyilikHareketiApp.swift in Sources */,
 				F852B17C2BF8DB1400A31D33 /* PersonModel.swift in Sources */,
+				F8B8D2BE2C15C86F0097648A /* CreateAddService.swift in Sources */,
 				F86BFB3B2BF0D66100C754C2 /* StatusView.swift in Sources */,
 				F850E41A2BFFDFF6008B3588 /* SignUpViewModel.swift in Sources */,
 				F8C36A882BA9EAEE00DC8733 /* ProfileView.swift in Sources */,
 				F861E7722B9497F700E804DA /* Text.swift in Sources */,
+				F8B8D2B82C14F5B40097648A /* CreateAddView.swift in Sources */,
 				F87835282BA8CDAE006CD5A2 /* myButton.swift in Sources */,
 				F852B17E2BF8DB4600A31D33 /* PersonViewModel.swift in Sources */,
 				F852B1762BF7EE6F00A31D33 /* EduVideoView.swift in Sources */,
 				F86BFB392BF0D4ED00C754C2 /* QRView.swift in Sources */,
 				F87C9E672BF7AE9200C55372 /* AdvertModel.swift in Sources */,
 				F87835242BA8B6F5006CD5A2 /* SearchBarView.swift in Sources */,
+				F8B8D2BC2C14F87F0097648A /* CreateAddModel.swift in Sources */,
 				F88F88D42B8FC68400D3A8AD /* Color.swift in Sources */,
 				F878352A2BA8D42D006CD5A2 /* RestaurantBox.swift in Sources */,
+				F8B8D2BA2C14F8530097648A /* CreateAddViewModel.swift in Sources */,
 				F850E41C2BFFE3BF008B3588 /* SignUpModel.swift in Sources */,
 				F852B17A2BF8D59500A31D33 /* StatusListCellView.swift in Sources */,
 				F8B80D832BA4C60000DF7DAD /* InputFieldView.swift in Sources */,

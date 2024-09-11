@@ -4,9 +4,10 @@ struct ProfileView: View {
     
     @State var name:String = "beyza"
     @State var surname:String = "olgunsoy"
-    @State var userName: String = "beyzazehra"
-    @State var foodKg: Int
-    @State var paket: Int
+    @State var userName:String = "beyzazehra"
+    @State var foodKg:Int
+    @State var paket:Int
+    @State var showSheet:Bool = false
     
     @State private var selectedTab: Tab = .person
     @StateObject var personVM: PersonViewModel = PersonViewModel()
@@ -23,20 +24,37 @@ struct ProfileView: View {
 
                 
                 HStack {
-                    Text(personVM.persons?.personName ?? "yusuf")
+                    Text(personVM.persons?.personName ?? "beyza")
                         .font(.title)
                         .font(.custom("OpenSans-Bold", size: 20))
                     
-                    Text(personVM.persons?.personSurname ?? "yusuf")
+                    Text(personVM.persons?.personSurname ?? "olgunsoy")
                         .font(.title)
                         .font(.custom("OpenSans-Bold", size: 20))
                 }
                 
                 
-                Text(personVM.persons?.personNickName ?? "yusuf")
+                Text(personVM.persons?.personNickName ?? "@beyzazehra")
                     .font(.title)
                     .font(.custom("OpenSans-Bold", size: 20))
                 
+                Button(action: { showSheet.toggle()}) {
+                    Image(systemName: "plus.circle.fill")
+                    Text("İlan Oluştur")
+                        .font(.title3)
+                    
+                        .padding(.horizontal)
+                          
+                      }
+                      .padding()
+                      .background(Color.theme.accent)
+                      .foregroundColor(.white)
+                      .cornerRadius(20)
+                
+                      .padding()
+                      .sheet(isPresented: $showSheet, content: {
+                          CreateAddView()
+                      })
                 HStack {
                     ZStack {
                         RoundedRectangle(cornerRadius: 25)
@@ -74,14 +92,14 @@ struct ProfileView: View {
                 ZStack {
                     RoundedRectangle(cornerRadius: 25)
                         .foregroundColor(.white)
-                        .frame(width: 345, height: 140)
+                        .frame(width: 345, height: 100)
                     Text("Gıda İyilik Adımın:")
                         .font(.title2)
                 }
                 ZStack {
                     RoundedRectangle(cornerRadius: 25)
                         .foregroundColor(.white)
-                        .frame(width: 345, height: 140)
+                        .frame(width: 345, height: 100)
                     Text("Doyurduğun Canlı Sayısı:")
                         .font(.title2)
                 }

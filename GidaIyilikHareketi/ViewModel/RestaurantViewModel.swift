@@ -13,7 +13,7 @@ class RestaurantViewModel: ObservableObject {
     }
     
     
-    func fetchAdvertsFromAPI() async throws -> Void{
+    func fetchAdvertsFromAPI() async throws -> Void {
       
             let url = URL(string: "http://beykent.dhlrdlab.com/api/adverts")!
             let (data, _) = try await URLSession.shared.data(from: url)

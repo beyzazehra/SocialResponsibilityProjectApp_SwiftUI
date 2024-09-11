@@ -35,27 +35,5 @@ class LoginViewModel: ObservableObject {
     }
     
     
-    
-    //    func postLoginRequest() async throws -> Void {
-    //
-    //
-    //
-    //        let url = URL(string: "http://beykent.dhlrdlab.com/api/persons/login")!
-    //        var request = URLRequest(url: url)
-    //        request.httpMethod = ("POST")
-    //        let parameters:[String:Any] = ["username":username,"password":password]
-    //        print(parameters)
-    //        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-    //        request.httpBody = try? JSONSerialization.data(withJSONObject: parameters)
-    //
-    //        let (data, _) = try await URLSession.shared.data(for: request)
-    //        print(String(data: data, encoding: .utf8)!)
-    //
-    //        DispatchQueue.main.async {
-    //        }
-    //
-    //
-    //    }
-    
-    }
+}
 

@@ -130,7 +130,7 @@ class Webservices {
                 return
             }
             
-            print(String(data: data, encoding: .utf8)!)
+//            print(String(data: data, encoding: .utf8)!)
             
             if let httpResponse = response as? HTTPURLResponse {
                 if (httpResponse.statusCode == 200)

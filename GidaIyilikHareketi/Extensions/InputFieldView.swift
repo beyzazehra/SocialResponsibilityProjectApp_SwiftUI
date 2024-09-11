@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct InputFieldView: View {
+    
     @Binding var data: String
     
     var title: String?
